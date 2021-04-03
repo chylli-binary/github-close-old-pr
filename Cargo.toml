@@ -1,0 +1,11 @@
+[package]
+name = "github-close-old-pr"
+version = "0.1.0"
+authors = ["chylli-binary <chylli@binary.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+octocrab = "0.8.12"
+tokio = { version = "1.0", features = ["full"] }
